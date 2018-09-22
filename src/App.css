@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #35424a;
+  height: 50px;
+  padding: 20px;
+  color: #ffffff;
+  border-bottom:3px #e8491d solid;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+body {
+  font-family: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #35424a;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 2px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+  border-bottom:3px #e8491d solid;
+}
+
+  .navbar li a, .navbar .navbar-brand {
+      color: #ffffff !important;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #35424a !important;
+    background-color: #e8491d !important;
+    font-weight:bold;
+}
+
+.dropdown {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: white;
+  /*padding: 14px 16px;*/
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+
+.dropdown-menu {
+  color: #ffffff !important;
+  background-color: #35424a !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #35424a;
+  left: -300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-course {
+  width: 700%;
+  height: 350px;
+}
+
+.dropdown-content-service {
+  width: 700%;
+  height: 350px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #35424a;
+  height: 150px;
+}
+
+  .column a {
+      float: none;
+      color: black;
+      padding: 2px;
+      text-decoration: none;
+      display: block;
+      /*text-align: left;*/
+  }
+
+      .column a:hover {
+          background-color: #ddd;
+      }
+
+      .column h5 {
+        color: #e8491d;
+        font-weight:bold;
+        /*text-align: left;*/
+    }
+  
+
+.highlight{
+	color:#e8491d;
+	font-weight:bold;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
